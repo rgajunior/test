@@ -27,12 +27,13 @@
 				<version>2.10.1</version>
 				<configuration>
 					<generateApplicationXml>true</generateApplicationXml>
-					<applicationXml>${basedir}/src/main/application/META-INF/application.xml</applicationXml>
+					<applicationXml>/src/main/webapp/WEB-INF/application.xml</applicationXml>
+					<version>6</version>
 					<modules>
 						<webModule>
 							<groupId>com.test</groupId>
 							<artifactId>test-web</artifactId>
-							<bundleFileName>test-web.war</bundleFileName> 
+							
 						</webModule>
 					</modules>
 				</configuration>

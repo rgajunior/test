@@ -2,7 +2,7 @@
     <wb-module deploy-name="test-ear">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
-        <dependent-module archiveName="test-web-0.0.1-SNAPSHOT.war" deploy-path="/" handle="module:/resource/test-web/test-web">
+        <dependent-module archiveName="test-web.war" deploy-path="/" handle="module:/resource/test-web/test-web">
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>
