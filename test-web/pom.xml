@@ -10,7 +10,7 @@
 	</parent>
 	<artifactId>test-web</artifactId>
 	<packaging>war</packaging>
-	<name>test-web Maven Webapp</name>
+	<name>test-web</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
@@ -27,5 +27,12 @@
 	</dependencies>
 	<build>
 		<finalName>test-web</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.1.0</version>
+			</plugin>
+		</plugins>
 	</build>
 </project>
